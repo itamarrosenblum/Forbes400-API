@@ -24,7 +24,7 @@ console.log(data);
     const tdImage = document.createElement("td");
     const img = document.createElement("img");
     tdImage.appendChild(img);
-    // Fixing https:// bug of the API
+    // Fixing https:// bug of some links to images the API
     if(data[i].squareImage.indexOf("https") === -1) {
       img.src = `https:${data[i].squareImage}`;
     } else {
