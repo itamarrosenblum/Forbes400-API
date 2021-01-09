@@ -11,4 +11,4 @@
 Trying out the Forbes 400 API.
 
 ## Demonstration 🤹‍♂️
-<img src="https://s4.gifyu.com/images/ezgif-3-0fd1bde81a2c.gif" alt="Forbes 400 API">
+<img src="https://s4.gifyu.com/images/ezgif-3-338141caf59e.gif" alt="Forbes 400 API">
