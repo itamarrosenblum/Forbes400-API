@@ -1,17 +1,17 @@
 /* -------------------------------
 Purpose: Main JS File
-Version: 0.1
+Version: 0.2
 Author: Itamar Rosenblum
-Date: 09-01-21
+Date: 1--01-21
 Last Update: None
 ------------------------------- */
 
 // Async await function
-(async function() {
+(async function fn() {
   // Fetch to forbes400 API
   const res = await fetch("https://forbes400.herokuapp.com/api/forbes400?limit=10");
   const data = await res.json();
-
+console.log(data);
   // Creating the table
   for (let i = 0; i < data.length; i++) {
     // Get element
@@ -24,7 +24,12 @@ Last Update: None
     const tdImage = document.createElement("td");
     const img = document.createElement("img");
     tdImage.appendChild(img);
-    img.src = data[i].squareImage;
+    // Fixing https:// bug of the API
+    if(data[i].squareImage.indexOf("https") === -1) {
+      img.src = `https:${data[i].squareImage}`;
+    } else {
+      img.src = data[i].squareImage;
+    }
     tr.appendChild(tdImage);
 
     // Create rank table data
