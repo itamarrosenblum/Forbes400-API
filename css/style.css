@@ -31,6 +31,8 @@ body {
 /* HEADER */
 /* ----------------------- */
 header {
+    display: flex;
+    justify-content: center;
     padding: 15px 0;
     background-color: #181816;
 }
