@@ -11,7 +11,7 @@ Last Update: None
   // Fetch to forbes400 API
   const res = await fetch("https://forbes400.herokuapp.com/api/forbes400?limit=10");
   const data = await res.json();
-console.log(data);
+
   // Creating the table
   for (let i = 0; i < data.length; i++) {
     // Get element
