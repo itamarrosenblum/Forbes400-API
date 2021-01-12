@@ -1,4 +1,4 @@
-# Dog API
+# Forbes 400 API
 
 <img src="https://i.imgur.com/UJvLEKE.png" alt="Forbes 400 API">
 
