@@ -1,6 +1,6 @@
-# Forbes 400 API
+# Dog API
 
-<img src="https://i.imgur.com/UJvLEKE.png" alt="Forbes 400 API">
+<img src="https://i.imgur.com/iJHMy3D.png" alt="Dog API">
 
 ## Technologies used 🛠️
 * Vanilla JavaScript
@@ -8,11 +8,10 @@
 * Vanilla CSS3
 
 ## Description 📝
-Trying out the Forbes 400 API.
-- The Forbes 400 API tracks the daily ups and downs of the world’s richest people.
-- The wealth-tracking platform provides ongoing updates on the net worth and ranking.
+Trying out the Dog API.
+- Original dataset taken from the the Stanford Dogs Dataset.
 
-For the full API documentation, <strong><a href="https://github.com/jesseokeya/Forbes400">Click Here</a></strong>.
+For the full API documentation, <strong><a href="https://dog.ceo/dog-api/about">Click Here</a></strong>.
 
 ## Demonstration 🤹‍♂️
-<img src="https://s4.gifyu.com/images/ezgif-3-338141caf59e.gif" alt="Forbes 400 API">
+<img src="https://s2.gifyu.com/images/ezgif-1-40931cb7d2ad.md.gif" alt="Dog API">
