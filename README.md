@@ -14,4 +14,4 @@ Trying out the Dog API.
 For the full API documentation, <strong><a href="https://dog.ceo/dog-api/about">Click Here</a></strong>.
 
 ## Demonstration 🤹‍♂️
-<a href="https://gifyu.com/image/FIrp"><img src="https://s2.gifyu.com/images/ezgif-1-40931cb7d2ad.gif" alt="ezgif-1-40931cb7d2ad.gif" border="0"></a>
+[![ezgif-1-40931cb7d2ad.gif](https://s2.gifyu.com/images/ezgif-1-40931cb7d2ad.gif)](https://gifyu.com/image/FIrp)
