@@ -12,6 +12,7 @@ Last Update: None
     thead th {
         font-size: 75%;
         padding-right: 0;
+        text-align: center;
      }
 
     thead th:nth-child(1),
