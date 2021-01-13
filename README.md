@@ -14,5 +14,10 @@ Trying out the Forbes 400 API.
 
 For the full API documentation, <strong><a href="https://github.com/jesseokeya/Forbes400">Click Here</a></strong>.
 
+## Live Preview 🔗
+The project is hosted on Netlify.
+
+For live preview, <strong><a href="https://forbes400api.netlify.app/">Click Here</a></strong>.
+
 ## Demonstration 🤹‍♂️
 <img src="https://s4.gifyu.com/images/ezgif-3-338141caf59e.gif" alt="Forbes 400 API">
