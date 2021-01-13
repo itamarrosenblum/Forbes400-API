@@ -50,7 +50,7 @@ Last Update: None
     thead th { text-align: center; }
 
     tbody td { 
-        padding: 10px 1px; 
+        padding: 10px 0px; 
         margin: 0;
     }
 

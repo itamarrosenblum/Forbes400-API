@@ -31,16 +31,15 @@ body {
 /* HEADER */
 /* ----------------------- */
 header {
-    display: flex;
-    justify-content: center;
     padding: 15px 0;
     background-color: #181816;
 }
 
 img[src="img/logo.png"] {
     display: block;
-    max-width: 100px;
+    width: 100px;
     height: auto;
+    margin: 0 auto;
 }
 
 /* ----------------------- */
