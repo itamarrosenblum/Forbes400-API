@@ -1,0 +1,55 @@
+/* -------------------------------
+Purpose: Main Queries File
+Version: 0.1
+Author: Itamar Rosenblum
+Date: 13-01-21
+Last Update: None
+------------------------------- */
+
+@media only screen and (max-width: 1100px) {
+    section { margin: 0 1px; }
+
+    thead th {
+        font-size: 75%;
+        padding-right: 0;
+     }
+
+    thead th:nth-child(1),
+    thead th:nth-child(2) { padding-right: 5px; }
+        
+    thead th:nth-child(3),
+    thead th:nth-child(4),
+    thead th:nth-child(5) { padding-right: 10px; }
+
+
+    td {
+        padding: 5px 0;
+        font-size: 75%;
+        text-align: center;
+    }
+
+    tbody td img { width: 80px; }
+}
+
+@media only screen and (max-width: 914px) {
+    thead th { font-size: 65%; }
+
+    td:nth-child(4),
+    td:nth-child(5),
+    td:nth-child(6),
+    td:nth-child(7)
+    { font-size: 65%; }
+
+    tbody td img { width: 60px; }
+}
+
+@media only screen and (max-width: 600px) {
+    tbody tr:hover { transform: none; }
+
+    tbody td { 
+        padding: 10px 1px; 
+        margin: 0;
+    }
+
+    thead th { text-align: center; }
+}

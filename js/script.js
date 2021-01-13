@@ -11,7 +11,7 @@ Last Update: None
   // Fetch to forbes400 API
   const res = await fetch("https://forbes400.herokuapp.com/api/forbes400?limit=10");
   const data = await res.json();
-
+console.log(data);
   // Creating the table
   for (let i = 0; i < data.length; i++) {
     // Get element
@@ -24,7 +24,7 @@ Last Update: None
     const tdImage = document.createElement("td");
     const img = document.createElement("img");
     tdImage.appendChild(img);
-    // Fixing https:// bug of some links to images the API
+    // Fixing https:// bug of the API
     if(data[i].squareImage.indexOf("https") === -1) {
       img.src = `https:${data[i].squareImage}`;
     } else {
@@ -35,7 +35,7 @@ Last Update: None
     // Create rank table data
     const tdRank = document.createElement("td");
     const pRank = document.createElement("p");
-    pRank.innerText = `. ${data[i].rank}`;
+    pRank.innerText = `${data[i].rank}`;
     tdRank.appendChild(pRank);
     tr.appendChild(tdRank);
 
