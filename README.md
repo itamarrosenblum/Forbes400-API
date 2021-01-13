@@ -1,6 +1,6 @@
 # Forbes 400 API
 
-<img src="https://i.imgur.com/UJvLEKE.png" alt="Forbes 400 API">
+<img src="https://i.imgur.com/EvfB748.png" alt="Forbes 400 API">
 
 ## Technologies used 🛠️
 * Vanilla JavaScript
@@ -14,5 +14,10 @@ Trying out the Forbes 400 API.
 
 For the full API documentation, <strong><a href="https://github.com/jesseokeya/Forbes400">Click Here</a></strong>.
 
+## Live Preview 🔗
+The project is hosted on Netlify.
+
+For live preview, <strong><a href="https://forbes400api.netlify.app/">Click Here</a></strong>.
+
 ## Demonstration 🤹‍♂️
-<img src="https://s4.gifyu.com/images/ezgif-3-338141caf59e.gif" alt="Forbes 400 API">
+<img src="https://s2.gifyu.com/images/ezgif-7-5ae7e84042e3.gif" alt="Forbes 400 API">
