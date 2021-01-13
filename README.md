@@ -1,6 +1,6 @@
 # Forbes 400 API
 
-<img src="https://i.imgur.com/GFvdS8R.png?1 alt="Forbes 400 API">
+<img src="https://i.imgur.com/EvfB748.png" alt="Forbes 400 API">
 
 ## Technologies used 🛠️
 * Vanilla JavaScript
