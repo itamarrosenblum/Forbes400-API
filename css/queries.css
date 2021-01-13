@@ -7,7 +7,7 @@ Last Update: None
 ------------------------------- */
 
 @media only screen and (max-width: 1100px) {
-    section { margin: 0 1px; }
+    section { margin: 0 10px; }
 
     thead th {
         font-size: 75%;
@@ -47,10 +47,15 @@ Last Update: None
 @media only screen and (max-width: 600px) {
     tbody tr:hover { transform: none; }
 
+    thead th { text-align: center; }
+
     tbody td { 
         padding: 10px 1px; 
         margin: 0;
     }
 
-    thead th { text-align: center; }
+    thead th:nth-child(5),
+    thead th:nth-child(6),
+    tbody td:nth-child(5),
+    tbody td:nth-child(6) { display: none; }
 }
