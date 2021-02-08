@@ -6,34 +6,21 @@
 */
 
 @media only screen and (max-width: 1100px) {
-    section { padding: 0 10px; }
-
-    thead th {
-        font-size: 75%;
-        padding-right: 0;
-        text-align: center;
-    }
-
-    thead th:nth-child(1),
-    thead th:nth-child(2) { padding-right: 5px; }
-        
-    thead th:nth-child(3),
-    thead th:nth-child(4),
-    thead th:nth-child(5) { padding-right: 10px; }
-
-
+    thead th,
     td {
-        padding: 5px 0;
         font-size: 75%;
         text-align: center;
     }
+
+    td { padding: 5px 0; }
 
     tbody td img { width: 80px; }
 }
 
 @media only screen and (max-width: 914px) {
-    thead th { font-size: 65%; }
+    thead th { padding: 0 0px 10px; }
 
+    thead th,
     td:nth-child(4),
     td:nth-child(5),
     td:nth-child(6),
@@ -44,14 +31,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-    tbody tr:hover { transform: none; }
-
+    section { padding: 0 10px;}
+    
     thead th { text-align: center; }
 
-    tbody td { 
-        padding: 10px 0px; 
-        margin: 0;
-    }
+    tbody td { padding: 10px 0px; }
 
     thead th:nth-child(5),
     thead th:nth-child(6),
