@@ -1,10 +1,9 @@
-/* -------------------------------
-Purpose: Main Queries File
-Version: 0.1
-Author: Itamar Rosenblum
-Date: 13-01-21
-Last Update: None
-------------------------------- */
+/**
+* Purpose: Main Queries File
+* Author: Itamar Rosenblum
+* Date: 09-01-2021
+* Last modified: 08-02-2021
+*/
 
 @media only screen and (max-width: 1100px) {
     section { padding: 0 10px; }
@@ -13,7 +12,7 @@ Last Update: None
         font-size: 75%;
         padding-right: 0;
         text-align: center;
-     }
+    }
 
     thead th:nth-child(1),
     thead th:nth-child(2) { padding-right: 5px; }

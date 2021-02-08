@@ -1,15 +1,14 @@
-/* -------------------------------
-Purpose: Main JS File
-Version: 0.2
-Author: Itamar Rosenblum
-Date: 1--01-21
-Last Update: None
-------------------------------- */
+/**
+* Purpose: Main JS File
+* Author: Itamar Rosenblum
+* Date: 09-01-2021
+* Last modified: 08-02-2021
+*/
 
 // Async await function
 (async function fn() {
     try {
-    // Fetch to forbes400 API
+    // Fetch forbes400 API
     const res = await fetch("https://forbes400.herokuapp.com/api/forbes400?limit=10");
     const data = await res.json();
 
@@ -25,13 +24,14 @@ Last Update: None
       const tdImage = document.createElement("td");
       const img = document.createElement("img");
       tdImage.appendChild(img);
-      
+
       // Fixing https:// bug of the API
       if(data[i].squareImage.indexOf("https") === -1) {
         img.src = `https:${data[i].squareImage}`;
       } else {
         img.src = data[i].squareImage;
       }
+
       tr.appendChild(tdImage);
 
       // Create rank table data
@@ -58,6 +58,7 @@ Last Update: None
       } else if (netStr.length <= 5) {
           tdNetWorth.innerText = `$${Number(netStr.slice(0, 2))} B`;
       }
+      
       tr.appendChild(tdNetWorth);
 
       // Create gender table data
